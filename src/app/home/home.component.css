@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.container-fluid{
+    height: 100rem;
+}
+
+h1 {
+   
+        font-family: "Lobster", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      
+      
+}
+
+
+.container-fluid {
+
+    background: rgb(118,50,139);
+    background: linear-gradient(6deg, rgba(118,50,139,1) 0%, rgba(30,93,52,1) 86%);
+}
+
+
+
+/* div  parent*/
+.divWelc{
+    position: relative;
+ 
+}
+
+/* overlay */
+.head1 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.head2 {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* image welcome */
+#image-welcoming{
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    overflow: hidden;
+
+}
+
+
+/* styling divs children carousel */
+#div1{
+position: relative;
+height: 100%;
+object-fit: contain;
+display: flex;
+border: 5px solid rgb(162, 93, 162);
+border-radius: 5%;
+}
+
+#div2{
+position: relative;
+height: 100%;
+object-fit: contain;
+border: 5px solid rgb(162, 93, 162);
+border-radius: 5%;
+
+}
+
+#div3{
+position: relative;
+height: 100%;
+object-fit: contain;
+border: 5px solid rgb(162, 93, 162);
+border-radius: 5%;
+
+
+}
+#div4{
+    position: relative;
+    object-fit: cover;
+    border: 5px solid rgb(162, 93, 162);
+    border-radius: 5%;
+
+}
+#div5{
+    position: relative;
+    object-fit: cover;
+    border: 5px solid rgb(162, 93, 162);
+    border-radius: 5%;
+
+}
+#div6{
+    position: relative;
+    object-fit: cover;
+    border: 5px solid rgb(162, 93, 162);
+    border-radius: 5%;
+
+}
+
+/* carousel headingd */
+
+  h2,h3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: 0px 0px 10px rgb(20, 117, 46),
+             0px 0px 20px rgb(20, 117, 46),
+             0px 0px 40px rgb(20, 117, 46),
+             0px 0px 80px rgb(20, 117, 46);
+
+             font-family: "Lobster", sans-serif;
+             font-weight: 400;
+             font-style: normal;
+    
+  }
+
+
+  h5{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-shadow: 0px 0px 10px rgb(94, 225, 129),
+             0px 0px 20px rgb(94, 225, 129),
+             0px 0px 40px rgb(94, 225, 129),
+             0px 0px 80px rgb(94, 225, 129);
+    
+  }
+
+  h4{
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .disclaimer{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  p {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .carousel-item {
+    height: 400px;
+  }

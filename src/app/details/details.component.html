@@ -1,0 +1,19 @@
+
+<body>
+<div class=""> 
+    <div class="container text-center py-5 shadow-lg text-light">
+        <img [src]="itemFam.image" class="rounded-3 shadow " >
+    <h2 class="text-center my-4"> {{itemFam.name}}</h2>
+    <hr>
+    <p class="text-center"><strong>Description:</strong> 
+        <br><br>{{itemFam.descripDetail}}</p>
+    <hr>
+    <p class="text-center"> <strong>Price:<strong>{{itemFam.price| currency:"EUR"}} </strong></strong> 
+        <br>
+        <br>
+        <button (click)="addToCart()" class ="btn btn-success">Add to Cart</button>
+</div>
+</div>
+</body>
+
+ <!-- create a button to return in products -->

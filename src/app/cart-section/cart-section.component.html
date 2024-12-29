@@ -1,0 +1,59 @@
+<body>
+<h1 class="text-center py-4 text-light shadow-lg opacity-50">Your shopping cart</h1>
+
+<div *ngIf="prodFromCart.length > 0; else emptyCart">
+<div *ngFor="let items of prodFromCart; let i = index">
+
+    <div class="row px-3 py-3 text-light">
+
+    <!-- image product -->
+    <div class="col-3">
+<img src="" alt="" [src]="items.image" width="60" height="70">
+    </div>
+    
+  
+    <!-- name product -->
+    <div class="col-2 d-flex-inline my-auto">
+      <h5>{{items.name}}</h5>
+    </div>
+   
+    
+    <!-- quantity -->
+    <div class="col-3 mx-auto  d-flex justify-content-around ">
+        <button class="btn border-success border-2 text-light my-auto px-1" (click)="increase(items)"><i class="fa-solid fa-plus"></i></button>
+        <p class="my-auto">{{items.qtty}}</p>
+        <button class="btn border-warning border-2 text-light my-auto px-1" (click)="decrease(items)"><i class="fa-solid fa-minus"></i></button>
+        <button class="btn border-danger border-2 text-light my-auto px-2" (click)="remove(items)"><i class="fa-solid fa-xmark"></i></button>
+
+        <!-- <p>{{items.qtty}}</p> -->
+
+    </div>
+
+<!-- price -->
+    <div class="col-2 my-auto">
+   <p><strong> {{items.price|currency : 'EUR'}} </strong></p>
+</div>
+
+</div>
+<hr class="text-success">
+</div>
+
+</div>
+
+
+
+<hr>
+<div class="cart-summary text-light opacity-50 text-center py-5">
+<h4>Total items: {{total|currency :'EUR'}}</h4>
+<h5>Service Fee: {{ serviceCharge | currency: 'EUR' }}</h5>
+<h5 *ngIf="discount > 0">Discount: -{{ discount | currency: 'EUR' }}</h5>
+<hr>
+<h3>Total Amount: {{ finalTotal | currency: 'EUR' }}</h3>
+
+</div>
+
+
+<ng-template #emptyCart>
+    <p class="text-center text-light display-5 my-5 py-5">The cart is empty</p>
+  </ng-template>
+</body>
