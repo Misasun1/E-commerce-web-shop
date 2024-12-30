@@ -5,6 +5,8 @@
 
 Create a Webshop page for an online shop called Famazon.
 
+## TASK DESCRIPTION:
+
 1. Must contain at least 7 components that together will build up your application as follows: navbar, home, footer, about us, products, details and cart(order).
    
 2. Use routing to move between the pages without refreshing the browser(SPA). The navbar contains the navigation links that allows you to go through the components and go back to the home page.
