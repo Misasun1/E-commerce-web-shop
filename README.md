@@ -1,11 +1,10 @@
 
 <img src="public/images/E-COMMERCE.png" alt="Banner" width="800" height="300">
 
-# E-commerce webshop
-
-Create a Webshop page for an online shop called Famazon.
 
 ## TASK DESCRIPTION:
+
+Create a Webshop page for an online shop called Famazon.
 
 1. Must contain at least 7 components that together will build up your application as follows: navbar, home, footer, about us, products, details and cart(order).
    
