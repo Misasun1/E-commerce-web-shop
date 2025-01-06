@@ -10,7 +10,9 @@ img{
 }
 
 body{
-    background-image: url("/images/mesh-734.png");
+ 
+    background: radial-gradient(at 2% 91%, #558776 0px, transparent 50%), radial-gradient(at 96% 27%, #a3a847 0px, transparent 50%), radial-gradient(at 10% 32%, #8b5288 0px, transparent 50%), radial-gradient(at 78% 53%, #9013fe 0px, transparent 50%), #558776;
+    
     background-size: cover;
     
  
