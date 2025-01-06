@@ -1,7 +1,8 @@
 
 <img src="public/images/E-COMMERCE.png" alt="Banner" width="800" height="300">
 
-# E-commerce webshop
+
+## TASK DESCRIPTION:
 
 Create a Webshop page for an online shop called Famazon.
 
