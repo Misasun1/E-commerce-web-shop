@@ -4,7 +4,7 @@
 
 }
 .container-fluid{
-    height: 100rem;
+    height: 200vh;
 }
 
 h1 {
@@ -23,7 +23,32 @@ h1 {
     background: linear-gradient(6deg, rgba(118,50,139,1) 0%, rgba(30,93,52,1) 86%);
 }
 
+/* introduction text */
 
+#btn-shop a{
+  text-decoration: none ;
+  color: yellow;
+}
+
+#btn-shop:hover{
+background-color: rgb(78, 249, 87);
+box-shadow: 0 0 10px rgb(7, 57, 7);
+font-weight: 600;
+outline: groove 5px rgb(221, 103, 221);
+}
+
+#quote{
+  font-weight: 500;
+  text-shadow:0 0 10px rgb(4, 40, 4) ;
+  color: rgb(224, 224, 117) !important;
+  
+}
+
+#sect:hover{
+transform: translateY(5px) scale(1) ;
+transition: ease 1.2s;
+
+}
 
 /* div  parent*/
 .divWelc{
@@ -59,55 +84,38 @@ h1 {
 
 /* styling divs children carousel */
 #div1{
-position: relative;
+position: absolute;
 height: 100%;
 object-fit: contain;
+background-image: url('/images/green-fundal.jpg');
 display: flex;
 border: 5px solid rgb(162, 93, 162);
 border-radius: 5%;
 }
 
 #div2{
-position: relative;
+position: absolute;
 height: 100%;
 object-fit: contain;
+background-image: url('/images/green-fundal.jpg');
 border: 5px solid rgb(162, 93, 162);
 border-radius: 5%;
 
 }
 
 #div3{
-position: relative;
+position: absolute;
 height: 100%;
 object-fit: contain;
+overflow: hidden;
+background-image: url('/images/green-fundal.jpg');
 border: 5px solid rgb(162, 93, 162);
 border-radius: 5%;
 
 
 }
-#div4{
-    position: relative;
-    object-fit: cover;
-    border: 5px solid rgb(162, 93, 162);
-    border-radius: 5%;
 
-}
-#div5{
-    position: relative;
-    object-fit: cover;
-    border: 5px solid rgb(162, 93, 162);
-    border-radius: 5%;
-
-}
-#div6{
-    position: relative;
-    object-fit: cover;
-    border: 5px solid rgb(162, 93, 162);
-    border-radius: 5%;
-
-}
-
-/* carousel headingd */
+/* carousel headings */
 
   h2,h3 {
   position: absolute;
@@ -158,6 +166,14 @@ border-radius: 5%;
     transform: translate(-50%, -50%);
   }
 
-  .carousel-item {
-    height: 400px;
+  #info{
+    padding: 50px;
+    height: 200px;
+    text-align: center;
   }
+
+
+  
+  .carousel-item{
+  height: 60vh;
+ }
